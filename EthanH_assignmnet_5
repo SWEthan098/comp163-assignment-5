@@ -27,3 +27,19 @@ for i in range(len(Sequence)):
         sequence_output += str(Sequence[i])
 print(f"Sequence: {sequence_output}")
 print(f"Steps: {step_count}")
+
+print("=== Prime Number Checker ===")
+number_in_checker = int(input("Enter a number:"))
+    
+    
+print(f"Testing divisors from 2 to {number_in_checker - 1}...")
+    
+for i in range(2, number_in_checker):
+    #The i sets up each number in the range and the range is the top of the range 
+    if number_in_checker % i == 0:
+        #Modulo handles the if its able to be divided out aka not prime
+        print(f"{number_in_checker} is not prime (divisible by {i})")
+        break
+    #Break gives the loop a ending without it repeating over multiple times
+else:
+    print(f"{number_in_checker} is prime!") 
