@@ -1,2 +1,5 @@
 # comp163-assignment-5
+Why you chose each loop type for each challenge- I chose a while for the first challenge because it only wouldnt stop if it equalled one so there was no specified range, I chose for loops for the other two because it had specified ranges and specifically a nested for loop for the third so it could print the columns and rows correctly.
+How your solutions work- The first challenge has checks inside of it to see if its even or odd, then it goes through the process of adding to the sequence and the step count. The next for loop is formatting the list and the ifs are converting them to strings so they print without the brackets. The for loop sets the range and the if checks if its prime or not and the else handles if it doesnt get past the first if. The third challenge used a for loop that got the range and then nested for loops to handle the formatting and calculations for it.
+Any AI assistance used- I used ai to help with challenge 3s formatting because the spaces inside the zybooks weren't cooperating.
 
