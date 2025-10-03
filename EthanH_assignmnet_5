@@ -43,3 +43,16 @@ for i in range(2, number_in_checker):
     #Break gives the loop a ending without it repeating over multiple times
 else:
     print(f"{number_in_checker} is prime!") 
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplaction Table:") 
+print("   ", end="")
+for col in range(1, 11): #Handles the header row
+    print(f"{col:4}",end="")
+print()
+for row in range(1,11):
+    print(f"{row:2} ", end="")#Handles the header column
+    for col in range(1, 11):
+        product = row * col
+        print(f"{product:4}", end="")
+    print()
+
